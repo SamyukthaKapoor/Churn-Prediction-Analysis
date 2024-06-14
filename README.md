@@ -19,12 +19,6 @@ The repository contains the following files and directories:
 
 The dataset used for this project was sourced from **Kaggle**: [Churn Modelling Dataset](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling/data). **It contains 10,000 rows and 14 columns, including customer attributes such as credit score, geography, gender, age, tenure, balance, number of products, cardholder status, activity level, estimated salary, and churn status.**
 
-## **Installation**
-
-To run the project, you need to have **Python** installed. You can install the required dependencies using pip:
-
-```bash
-pip install -r requirements.txt
 
 ## **Data Preprocessing**
 
@@ -62,3 +56,10 @@ The models were evaluated based on accuracy, precision, recall, F1 score, and **
 ## **Conclusion**
 
 This project demonstrated the effectiveness of machine learning techniques in predicting customer churn. **By identifying key factors influencing churn, banks can develop targeted strategies to improve customer retention.**
+
+## **Installation**
+
+To run the project, you need to have **Python** installed. You can install the required dependencies using pip:
+
+```bash
+pip install -r requirements.txt
