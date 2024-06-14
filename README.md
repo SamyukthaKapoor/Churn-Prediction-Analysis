@@ -45,9 +45,9 @@ New features were created to enhance model accuracy. Examples include:
 
 We used several machine learning models to predict customer churn:
 
-- **Logistic Regression**: Evaluated using feature importance, confusion matrix, and ROC curve.
-- **Decision Tree**: Evaluated using feature importance, confusion matrix, and ROC curve.
-- **Random Forest**: Evaluated using feature importance, confusion matrix, and ROC curve.
+- **Logistic Regression**
+- **Decision Tree**
+- **Random Forest**
 
 ## **Results**
 
