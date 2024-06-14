@@ -57,9 +57,14 @@ The models were evaluated based on accuracy, precision, recall, F1 score, and **
 
 This project demonstrated the effectiveness of machine learning techniques in predicting customer churn. **By identifying key factors influencing churn, banks can develop targeted strategies to improve customer retention.**
 
+## **License**
+
+This project is licensed under the **MIT License**.
+
 ## **Installation**
 
 To run the project, you need to have **Python** installed. You can install the required dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
+
