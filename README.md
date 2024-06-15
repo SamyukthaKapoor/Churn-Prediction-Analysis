@@ -1,70 +1,81 @@
-# Customer Churn Prediction
+### Project Overview
 
-This project aims to predict customer churn in a banking environment using various machine learning techniques. **By understanding the factors influencing customer churn, we can develop strategies to improve customer retention.**
+**Husky Climaters** is a comprehensive project developed for the MIT Hackathon organized by Global Energy Monitor. This project aims to analyze and visualize global energy generation data, assess the health impacts of wind dispersion on populations, and provide a job portal for power plant-related opportunities. The project leverages data analytics, machine learning, and web development techniques to offer actionable insights and solutions in the energy sector.
 
-## **Project Overview**
+---
 
-This project was completed as part of the **IE 7275: Data Mining in Engineering** course at **Northeastern University**.
+### Table of Contents
 
-## **Project Structure**
+1. Dashboard
+2. Job Portal
+3. Machine Learning Model for Health Impact Assessment
+4. Acknowledgements
+5. Future Work
 
-The repository contains the following files and directories:
+---
 
-- `data/`: Contains the dataset used for the project.
-- `notebooks/`: Jupyter notebooks detailing the analysis and model building steps.
-- `src/`: Python scripts for data preprocessing, feature engineering, and model evaluation.
-- `README.md`: Project overview and setup instructions.
+### Dashboard
 
-## **Dataset**
+The interactive Power BI dashboard provides a comprehensive view of global energy generation data. Key features include:
 
-The dataset used for this project was sourced from **Kaggle**: [Churn Modelling Dataset](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling/data). **It contains 10,000 rows and 14 columns, including customer attributes such as credit score, geography, gender, age, tenure, balance, number of products, cardholder status, activity level, estimated salary, and churn status.**
+- **Filters for Power Plant Types, Country, and Energy Levels**: Customize your view by selecting different parameters.
+- **Language Options**: Metadata conversion available in various languages for broader accessibility.
+- **Visual Enhancements**: Designed for all audiences with alternate text and color coding for clarity.
+
+#### Dashboard Link
+[https://app.powerbi.com/groups/me/reports/85dd159e-92d3-42dd-b5ff-08bffd5ee2ee/ReportSection?ctid=a8eec281-aaa3-4dae-ac9b-9a398b9215e7&experience=power-bi]
 
 
-## **Data Preprocessing**
+#### Limitations
+- **Location Filter**: Currently under development.
+- **Live Data Integration**: Presently, the dashboard does not support live data but can be adapted for continuous data flow.
 
-The data preprocessing steps include:
+---
 
-- Checking for null values and duplicates.
-- Dropping irrelevant columns (`RowNumber`, `CustomerId`, `Surname`).
-- Renaming the target variable `Exited` to `ChurnedOrNot` and encoding its values.
-- Applying one-hot encoding to categorical features.
-- Addressing class imbalance using **SMOTE**.
+### Job Portal
 
-## **Exploratory Data Analysis (EDA)**
+Developed using HTML, CSS, JavaScript, and Python, the job portal is focused on energy sector employment opportunities. Key functionalities include:
 
-We performed **EDA** to understand the relationships between features and customer churn. **Visualizations included histograms, scatter plots, and correlation matrices.**
+- **Search and Filter Techniques**: Enhanced querying techniques for precise job searches.
+- **Privacy Restrictions**: Ensures user data privacy and secure job search.
 
-## **Feature Engineering**
+#### Example Job Search Queries
+- Basic: `"power plant jobs" + "global"`
+- Refined: `"renewable energy jobs" + "power plants" + "Asia"`
 
-New features were created to enhance model accuracy. Examples include:
+---
 
-- Categorizing customers based on the number of products.
-- Grouping customers based on their account balance.
+### Machine Learning Model for Health Impact Assessment
 
-## **Model Building and Evaluation**
+The machine learning model aims to assess the health impacts of wind dispersion based on emissions, wind speed, and population data. 
 
-We used several machine learning models to predict customer churn:
+#### Key Features
+- **Variables**: Emission data, wind speed, population statistics.
+- **Health Impact Calculation**: Uses the Exposure-Response relationship to predict potential health impacts.
 
-- **Logistic Regression**
-- **Decision Tree**
-- **Random Forest**
+#### Conclusion
+Wind dispersion and population density significantly influence health impacts. This model can be fine-tuned to predict diseases such as cancer and respiratory issues caused by pollution.
 
-## **Results**
+---
 
-The models were evaluated based on accuracy, precision, recall, F1 score, and **AUC-ROC**. **The best-performing model was selected for predicting customer churn.**
+### Acknowledgements
 
-## **Conclusion**
+We extend our gratitude to the following:
 
-This project demonstrated the effectiveness of machine learning techniques in predicting customer churn. **By identifying key factors influencing churn, banks can develop targeted strategies to improve customer retention.**
+- **Northeastern University NU Energy Systems and GSG**: For their support and encouragement.
+- **MIT Hackathon and Global Energy Monitor**: For organizing and providing a platform for this research.
 
-## **License**
+---
 
-This project is licensed under the **MIT License**.
+### Future Work
 
-## **Installation**
+- **Development of Location Filters**: Enhance the dashboard with fully functional location-based filtering.
+- **Live Data Integration**: Adapt the system to handle live data streams for real-time analysis.
+- **Advanced Health Impact Models**: Further tuning and development of the health impact assessment model for better accuracy.
 
-To run the project, you need to have **Python** installed. You can install the required dependencies using pip:
+---
 
-```bash
-pip install -r requirements.txt
 
+### Disclaimer
+Disclosure: We (Husky Climaters) are participating in the MIT Hackathon organized by Global Energy Monitor. All rights are reserved by the organizers and GEM. This work is submitted to the platform for further development and societal betterment.
+```
